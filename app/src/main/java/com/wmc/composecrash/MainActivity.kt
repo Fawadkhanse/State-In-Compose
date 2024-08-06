@@ -38,6 +38,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun StatelessCounter(count:Int,increment:()->Unit,clear:()->Unit,modifier: Modifier = Modifier) {
     Column(
